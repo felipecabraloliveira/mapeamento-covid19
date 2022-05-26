@@ -55,7 +55,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     <Card>
       <CardPanelContentStyled>
         <div>
-          <Typography variant="h5" component="span" color="primary">COVID19 - Desafio de Projeto by <a href="https://github.com/felipecabraloliveira">Felipe Cabral</a></Typography>
+          <Typography variant="h5" component="span" color="primary">COVID19 - Carrefour WebDeveloper DIO - Desafio de Projeto by <a href="https://github.com/felipecabraloliveira">Felipe Cabral</a></Typography>
           <Typography variant="h6" component="h5" color="primary">Dados Coronavírus</Typography>
           <Typography variant="body2" component="span" color="primary">Atualizado em: {updateAt}</Typography>
           <div className="pt-2">
