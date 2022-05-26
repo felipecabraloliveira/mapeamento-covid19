@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.669ffde7.js",
-    "static/media/covid.jpg": "/static/media/covid.273bb521bd9530b83dda.jpg",
-    "index.html": "/index.html",
-    "main.669ffde7.js.map": "/static/js/main.669ffde7.js.map"
+    "main.js": "/github-page/static/js/main.a1d00ce7.js",
+    "static/media/covid.jpg": "/github-page/static/media/covid.273bb521bd9530b83dda.jpg",
+    "index.html": "/github-page/index.html",
+    "main.a1d00ce7.js.map": "/github-page/static/js/main.a1d00ce7.js.map"
   },
   "entrypoints": [
-    "static/js/main.669ffde7.js"
+    "static/js/main.a1d00ce7.js"
   ]
 }
