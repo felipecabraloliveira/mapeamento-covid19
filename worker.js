@@ -4,6 +4,7 @@ var urlsToCache = [
     '/'
 ];
 
+
 // Install a service worker
 self.addEventListener('install', event => {
     event.waitUntil(
