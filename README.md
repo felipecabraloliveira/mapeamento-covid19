@@ -18,7 +18,6 @@ Tecnologias e ferramentas utilizadas:
 - CSS3
 - JavaScript
 - React
-- Progressive Web App (PWA)
 - Photoshop
 - Visual Studio Code
 
@@ -69,10 +68,6 @@ Exemplo de tela para Iphone.
 ![Dados da Covid](img/dados-covid-19-apresentacao-responsividade.png)
 
 - Ajuste para responsividade.
-
-
-
-
 
 
 
