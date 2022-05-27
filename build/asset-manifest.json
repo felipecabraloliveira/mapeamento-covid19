@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/mapeamento-covid19/static/js/main.b18ca17a.js",
+    "main.js": "/mapeamento-covid19/static/js/main.db030bb9.js",
     "static/media/covid.jpg": "/mapeamento-covid19/static/media/covid.273bb521bd9530b83dda.jpg",
     "index.html": "/mapeamento-covid19/index.html",
-    "main.b18ca17a.js.map": "/mapeamento-covid19/static/js/main.b18ca17a.js.map"
+    "main.db030bb9.js.map": "/mapeamento-covid19/static/js/main.db030bb9.js.map"
   },
   "entrypoints": [
-    "static/js/main.b18ca17a.js"
+    "static/js/main.db030bb9.js"
   ]
 }

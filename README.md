@@ -63,7 +63,7 @@ Descrição: A API retorno dados sobre a COVID 19, podemos obter eles de acordo 
 
 ### Responsividade
 
-Exemplo de tela para Iphone.
+Exemplo de tela para IPHONE.
 
 ![Dados da Covid](img/dados-covid-19-apresentacao-responsividade.png)
 
