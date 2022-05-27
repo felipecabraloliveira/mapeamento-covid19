@@ -6,6 +6,7 @@ export const LabelStyled = styled(Typography)`
   font-size: 1.5rem;
 `
 
+
 export const ValueStyled = styled(Typography)`
   font-weight: 500;
   font-size: 2.2rem;
