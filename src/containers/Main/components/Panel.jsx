@@ -1,8 +1,7 @@
-import React, { memo } from 'react'
-//import RefreshIcon from '../../../assets/images/refresh.svg'
-import { Card, Typography, Button, Select, MenuItem } from '../../../components'
-import COUNTRIES from '../../../commons/constants/countries'
-import { CardPanelContentStyled, ItemStyled } from './style'
+import React, { memo } from 'react';
+import COUNTRIES from '../../../commons/constants/countries';
+import { Button, Card, MenuItem, Select, Typography } from '../../../components';
+import { CardPanelContentStyled, DivStyled, ItemStyled } from './style';
 
 const navigatorHasShare = navigator.share
 
@@ -30,10 +29,9 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     navigator.share({
       title: `Dados do Covid19 - ${country}`,
       text: textCovid19,
-      url: 'https://covid19dio.netlify.app/'
+      url: 'https://felipecabraloliveira.github.io/mapeamento-covid19/'
     })
   }
-
   const renderShareButton = (
     <div>
       <Button variant="contained" color="primary" onClick={shareInfo}>
@@ -50,26 +48,25 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     </div>
   )
 
-
   return (
     <Card>
       <CardPanelContentStyled>
         <div>
-          <Typography variant="h5" component="span" color="primary">COVID19 - Carrefour WebDeveloper DIO - Desafio de Projeto by <a href="https://github.com/felipecabraloliveira">Felipe Cabral</a></Typography>
-          <Typography variant="h6" component="h5" color="primary">Dados Coronavírus</Typography>
-          <Typography variant="body2" component="span" color="primary">Atualizado em: {updateAt}</Typography>
+          <Typography variant="h4" component="p" color="primary">COVID19</Typography>
+          <Typography variant="h5" component="p" color="primary">América do Sul</Typography>
+          <Typography variant="body2" component="p" color="primary">Atualizado em: {updateAt}</Typography>
           <div className="pt-2">
             <Select onChange={onChange} value={country}>
               {COUNTRIES.map(renderCountries)}
             </Select>
           </div>
         </div>
-        <div>
+        <DivStyled>
           {navigatorHasShare ? renderShareButton : renderCopyButton}
-        </div>
+        </DivStyled>
       </CardPanelContentStyled>
-    </Card >
+    </Card>
   )
 }
 
-export default memo(Panel)
+export default memo(Panel);
