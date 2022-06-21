@@ -37,7 +37,7 @@ API: https://coronavirus-19-api.herokuapp.com/tabs/tab2
 
 Author: Javier Aviles
 
-Descrição: A API retorno dados sobre a COVID 19, podemos obter eles de acordo com cada país.
+Descrição: A API retorna dados sobre a COVID 19, podemos obter eles de acordo com cada país.
 
 
 
